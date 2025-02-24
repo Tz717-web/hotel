@@ -6,7 +6,7 @@
 
 - *###通信方式:前端通过Axios(或其他HTTP 客户端库)向Django API发送请求，并通过JSON 格式交换数据。
 
-- a.Spring Boot  **_项目_**
+ a.Spring Boot  **_项目_**
 安装最新idae,用文件中maven构建依赖和jdk(自行下载，推荐20.3版本，不易出问题)，然后自建数据库连接运行UserCenterApplication.·即可
 
 - 默认情况下，后端会运行在http://127.0.0.1:8080
