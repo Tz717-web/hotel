@@ -7,7 +7,7 @@
 - *###通信方式:前端通过Axios(或其他HTTP 客户端库)向Django API发送请求，并通过JSON 格式交换数据。
 
 - a.Spring Boot _** 项目**_
-安装最新idae,用文件中maven构建依赖和应用文件中的jdk(也可以自行下载)，然后自建数据库连接运行UserCenterApplication.·即可
+安装最新idae,用文件中maven构建依赖和jdk(自行下载，推荐20.3版本，不易出问题)，然后自建数据库连接运行UserCenterApplication.·即可
 
 - 默认情况下，后端会运行在http://127.0.0.1:8080
 
@@ -27,7 +27,7 @@ pnpm(npm) run serve
 ### 运行中可能存在的问题
 
 - 前端在编写过程中使用了prettier进行代码规范化，可能不符合您的IDE设置，如果遇到格式之类的错误，可尝试 npm run lint --fix 进行修复
-（如文件代码规范支持代码_行尾序列_为LF,大多数情况为CRLF，导致大面积报错，记得修改即可）
+（如文件代码规范支持代码_行尾序列_为LF,大多数情况为CRLF，导致大面积报错，记得修改设置即可）
 
 - 后端端口号被占用导致的错误
 解决办法： [https://blog.csdn.net/weixin_46030002/article/details/126649348](url)
