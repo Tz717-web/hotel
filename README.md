@@ -2,7 +2,7 @@
 
 - *后端(Spring Boot) :选用MyBatis进行数据访问层开发，全局装配了异常处理器，采用双检锁单例模式进行管理，使用JUnit Jupiter API 的@Test 注释和Assertions lei实现对用户模块的单元测试，覆盖率高达90%。
 
-- *_前端(Vue.js)_: Vue.js用于实现用户界面，构建过程使用了ant design vue组件库，使用pinia库管理全局状态，发送请求给Django API并展示响应数据。
+- *_前端(Vue.js)_: Vue.js用于实现用户界面，构建过程使用了ant design vue组件库，使用pinia库管理全局状态，发送请求给后端接口并展示响应数据。
 
 - *###通信方式:前端通过Axios(或其他HTTP 客户端库)向Django API发送请求，并通过JSON 格式交换数据。
 
