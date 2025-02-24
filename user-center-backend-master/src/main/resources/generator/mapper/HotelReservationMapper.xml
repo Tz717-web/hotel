@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yupi.usercenter.mapper.HotelReservationMapper">
+
+    <resultMap id="BaseResultMap" type="com.yupi.usercenter.model.domain.HotelReservation">
+            <id property="id" column="id" />
+            <result property="idCard" column="idCard" />
+            <result property="phoneNumber" column="phoneNumber" />
+            <result property="checkInDate" column="checkInDate" />
+            <result property="checkOutDate" column="checkOutDate" />
+            <result property="roomType" column="roomType" />
+            <result property="numberOfRooms" column="numberOfRooms" />
+            <result property="specialRequests" column="specialRequests" />
+            <result property="reservationStatus" column="reservationStatus" />
+            <result property="createdAt" column="createdAt" />
+            <result property="updatedAt" column="updatedAt" />
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,idCard,phoneNumber,checkInDate,checkOutDate,
+        roomType,numberOfRooms,specialRequests,reservationStatus,createdAt,
+        updatedAt
+    </sql>
+</mapper>
